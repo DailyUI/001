@@ -1,3 +1,4 @@
+import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile/store.dart';
 import 'package:provider/provider.dart';
@@ -467,11 +468,14 @@ class _MyHomePageState extends State<MyHomePage> {
 class SuccessPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final Store _store = Provider.of<Store>(context);
     return Scaffold(
-      backgroundColor: Color(0xFF0FC06A),
       body: Center(
-        child: Image.asset(
-          "images/check.gif",
+        child: FlareActor(
+          _store.isDark() ? "images/success-dark.flr" : "images/success.flr",
+          animation: "Untitled",
+          fit: BoxFit.contain,
+          alignment: Alignment.center,
         ),
       ),
     );
