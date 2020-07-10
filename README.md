@@ -14,6 +14,6 @@
 
 #### [Twitter](https://twitter.com/RickyDoesCode)
 
-#### [Instagram](https://instagram.com/rickycodes)
+#### [Instagram](https://instagram.com/ricky.infinite)
 
 #### [Dribble](https://dribbble.com/RickyCodes)
